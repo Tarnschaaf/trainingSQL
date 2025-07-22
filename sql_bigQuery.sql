@@ -110,4 +110,4 @@ WHERE 1=1
 GROUP BY
   date, campaign_id, campaign_name, campaign_type_ads, utm_source, utm_medium, utm_campaign, utm_content,data_source_name
 ORDER BY
-  campaign_name DESC
+  campaign_name ASC
